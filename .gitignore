@@ -1,0 +1,3 @@
+*.sqlite3
+*.py[cod]
+w3_env/
