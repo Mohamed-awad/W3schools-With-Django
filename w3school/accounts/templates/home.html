@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %} W3schools Website {% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/normalize.css'%}"/>
+    <link rel="stylesheet" href="{% static 'css/stylee.css' %}">
+  </head>
+  <body>
+    <!-- start header -->
+    <div class="header">
+      <ul class="home">
+        <li style="float: left">
+          <a href="http://www.w3schools.com/">
+            <strong>
+              <span class ="ww">w3schools<span class="com">.com</span></span>
+            </strong>
+          </a>
+        </li>
+        <li style="float: right"><p>THE WORLD'S LARGEST WEB DEVELOPER SITE</p></li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <!-- end header-->
+    <!-- navbar -->
+    <div class="nav">
+      <ul>
+        <li class="t1">TUTORIALS</li>
+        <li class="r1">REFERENCES</li>
+        <li class="e1">EXAMPLES</li>
+      </ul>
+    </div>
+    <div class="clearfix"></div>
+    <!-- end navbar-->
+    <!-- start tutorial menu -->
+    <div class="tut tut1">
+      <br>
+      <div class="menu">
+        <h3>HTML and CSS</h3>
+        <ul>
+          <li><a href="">Learn HTML</a></li>
+          <li><a href="">Learn CSS</a></li>
+          <li><a href="">Learn W3.CSS</a></li>
+          <li><a href="">Learn Colors</a></li>
+          <li><a href="">Learn Bootstrap 3</a></li>
+          <li><a href="">Learn Bootstrap 4</a></li>
+          <li><a href="">Learn Icons</a></li>
+          <li><a href="">Learn Graphics</a></li>
+          <li><a href="">Learn SVG</a></li>
+          <li><a href="">Learn Canvas</a></li>
+          <li><a href="">Learn How To</a></li>
+        </ul>
+      </div>
+      <div class="menu">
+        <h3>JavaScript</h3>
+        <ul>
+          <li><a href="">Learn JavaScript</a></li>
+          <li><a href="">Learn jQuery</a></li>
+          <li><a href="">Learn AngularJs</a></li>
+          <li><a href="">Learn JSON</a></li>
+          <li><a href="">Learn AJAX</a></li>
+          <li><a href="">Learn W3.JS</a></li>
+        </ul>
+      </div>
+      <div class="menu">
+        <h3>Server Side</h3>
+        <ul>
+          <li><a href="">Learn SQL</a></li>
+          <li><a href="">Learn PHP</a></li>
+          <li><a href="">Learn Python</a></li>
+          <li><a href="">Learn Java</a></li>
+          <li><a href="">Learn ASP</a></li>
+          <li><a href="">Learn Node.js</a></li>
+          <li><a href="">Learn Raspberry Pi</a></li>
+        </ul>
+        <h3>Web Building</h3>
+        <ul>
+          <li><a href="">WEB Templates</a></li>
+          <li><a href="">WEB Statistics</a></li>
+          <li><a href="">WEB Certificates</a></li>
+          <li><a href="">WEB Editor</a></li>
+          <li><a href="">WEB Development</a></li>
+        </ul>
+      </div>
+      <div class="menu">
+        <h3>XML Tutorials</h3>
+        <ul>
+          <li><a href="">Learn XML</a></li>
+          <li><a href="">Learn XML AJAX</a></li>
+          <li><a href="">Learn XML DOM</a></li>
+          <li><a href="">Learn DTD</a></li>
+          <li><a href="">Learn XML Schema</a></li>
+          <li><a href="">Learn XSLT</a></li>
+          <li><a href="">Learn XPath</a></li>
+          <li><a href="">Learn XQuery</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- end tutorial menu -->
+
+    <!-- start references menu -->
+    <div class="tut ref">
+      <br>
+      <div class="menu">
+        <h3>HTML</h3>
+        <ul>
+          <li><a href="">HTML Tag Reference</a></li>
+          <li><a href="">HTML Event Reference</a></li>
+          <li><a href="">HTML Color Reference</a></li>
+          <li><a href="">HTML Attribute Reference</a></li>
+          <li><a href="">HTML Canvas Reference</a></li>
+          <li><a href="">HTML SVG Reference</a></li>
+          <li><a href="">Google Maps Reference</a></li>
+        </ul>
+        <h3>CSS</h3>
+        <ul>
+          <li><a href="">CSS Reference</a></li>
+          <li><a href="">CSS Browser Support</a></li>
+          <li><a href="">CSS Selector Reference</a></li>
+          <li><a href="">W3.CSS Reference</a></li>
+          <li><a href="">BootStrap Reference</a></li>
+          <li><a href="">Icon Reference</a></li>
+        </ul>
+      </div>
+      <div class="menu">
+        <h3>JavaScript</h3>
+        <ul>
+          <li><a href="">JavaScript Reference</a></li>
+          <li><a href="">HTML DOM Reference</a></li>
+          <li><a href="">jQuery Reference</a></li>
+          <li><a href="">AngularJS Reference</a></li>
+          <li><a href="">W3.JS Reference</a></li>
+        </ul>
+      </div>
+      <div class="menu">
+        <h3>Server Side</h3>
+        <ul>
+          <li><a href="">PHP Reference</a></li>
+          <li><a href="">SQL Reference</a></li>
+          <li><a href="">Python Reference</a></li>
+          <li><a href="">ASP Reference</a></li>
+        </ul>
+        <h3>XML</h3>
+        <ul>
+          <li><a href="">XML DOM Reference</a></li>
+          <li><a href="">XML Http Reference</a></li>
+          <li><a href="">XSLT Reference</a></li>
+          <li><a href="">XML Schema Reference</a></li>
+        </ul>
+      </div>
+      <div class="menu">
+        <h3>Character Sets</h3>
+        <ul>
+          <li><a href="">HTML Character Sets</a></li>
+          <li><a href="">HTML ASCII</a></li>
+          <li><a href="">HTML ANSI</a></li>
+          <li><a href="">HTML Windows-1252</a></li>
+          <li><a href="">HTML ISO-8859-1</a></li>
+          <li><a href="">HTML Symbols</a></li>
+          <li><a href="">HTML UTF-8</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- end references menu -->
+
+    <!-- start examples menu -->
+    <div class="tut ex">
+      <br>
+      <div class="menu">
+        <h3>HTML and CSS</h3>
+        <ul>
+          <li><a href="">HTML Examples</a></li>
+          <li><a href="">HTML Exercises</a></li>
+          <li><a href="">CSS Examples</a></li>
+          <li><a href="">CSS Exercises</a></li>
+          <li><a href="">W3.CSS Examples</a></li>
+          <li><a href="">W3.CSS Templates</a></li>
+          <li><a href="">BootStrap Examples</a></li>
+          <li><a href="">How To Examples</a></li>
+          <li><a href="">SVG Examples</a></li>
+        </ul>
+      </div>
+      <div class="menu">
+        <h3>JavaScript</h3>
+        <ul>
+          <li><a href="">JavaScript Examples</a></li>
+          <li><a href="">JavaScript Exercises</a></li>
+          <li><a href="">HTML DOM Examples</a></li>
+          <li><a href="">JQuery Examples</a></li>
+          <li><a href="">AngularJS Examples</a></li>
+          <li><a href="">AJAX Examples </a></li>
+          <li><a href="">W3.CSS Examples </a></li>
+        </ul>
+      </div>
+      <div class="menu">
+        <h3>Server Side</h3>
+        <ul>
+          <li><a href="">PHP Examples</a></li>
+          <li><a href="">ASP Examples</a></li>
+          <li><a href="">SQL Examples</a></li>
+          <li><a href="">Python Examples</a></li>
+        </ul>
+        <h3>XML</h3>
+        <ul>
+          <li><a href="">XML Examples</a></li>
+          <li><a href="">XSLT Examples</a></li>
+          <li><a href="">XPath Examples</a></li>
+          <li><a href="">XML Schema Examples</a></li>
+          <li><a href="">AJAX Examples</a></li>
+          <li><a href="">SVG Examples</a></li>
+        </ul>
+      </div>
+      <div class="menu">
+        <h3>Quizzes</h3>
+        <ul>
+          <li><a href="">HTML Quiz</a></li>
+          <li><a href="">CSS XML Quiz</a></li>
+          <li><a href="">JavaScript XML Quiz</a></li>
+          <li><a href="">Bootstrap Quiz</a></li>
+          <li><a href="">JQuery XML Quiz</a></li>
+          <li><a href="">PHP Quiz</a></li>
+          <li><a href="">SQL Quiz</a></li>
+          <li><a href="">XML Quiz</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- end examples menu -->
+    <!-- start container -->
+    <div class="row con">
+      <!-- start side menu -->
+      <div class="col-xl-2 mn_side">
+        <br>
+        <h4>HTML and CSS</h4>
+        <ul>
+          <li><a href="">Learn HTML</a></li>
+          <li><a href="">Learn CSS</a></li>
+          <li><a href="">Learn W3.CSS</a></li>
+          <li><a href="">Learn Colors</a></li>
+          <li><a href="">Learn Bootstrap 3</a></li>
+          <li><a href="">Learn Bootstrap 4</a></li>
+          <li><a href="">Learn Icons</a></li>
+          <li><a href="">Learn Graphics</a></li>
+          <li><a href="">Learn How To</a></li>
+        </ul>
+        <h4>JavaScript</h4>
+        <ul>
+          <li><a href="">Learn JavaScript</a></li>
+          <li><a href="">Learn jQuery</a></li>
+          <li><a href="">Learn AngularJs</a></li>
+          <li><a href="">Learn JSON</a></li>
+          <li><a href="">Learn AJAX</a></li>
+          <li><a href="">Learn W3.JS</a></li>
+        </ul>
+        <h4>Server Side</h4>
+        <ul>
+          <li><a href="">Learn SQL</a></li>
+          <li><a href="">Learn PHP</a></li>
+          <li><a href="">Learn Python</a></li>
+          <li><a href="">Learn Java</a></li>
+          <li><a href="">Learn ASP</a></li>
+          <li><a href="">Learn Node.js</a></li>
+          <li><a href="">Learn Raspberry Pi</a></li>
+        </ul>
+        <h4>Web Building</h4>
+        <ul>
+          <li><a href="">WEB Templates</a></li>
+          <li><a href="">WEB Statistics</a></li>
+          <li><a href="">WEB Certificates</a></li>
+          <li><a href="">WEB Editor</a></li>
+          <li><a href="">WEB Development</a></li>
+        </ul>
+        <h4>XML Tutorials</h4>
+        <ul>
+          <li><a href="">Learn XML</a></li>
+          <li><a href="">Learn XML AJAX</a></li>
+          <li><a href="">Learn XML DOM</a></li>
+          <li><a href="">Learn DTD</a></li>
+          <li><a href="">Learn XML Schema</a></li>
+          <li><a href="">Learn XSLT</a></li>
+          <li><a href="">Learn XPath</a></li>
+          <li><a href="">Learn XQuery</a></li>
+        </ul>
+        <h4>References</h4>
+        <ul>
+          <li><a href="">HTML Reference</a></li>
+          <li><a href="">CSS Reference</a></li>
+          <li><a href="">JS Reference</a></li>
+          <li><a href="">SQL Reference</a></li>
+          <li><a href="">PHP Reference</a></li>
+          <li><a href="">JQuery Reference</a></li>
+          <li><a href="">Python Reference</a></li>
+          <li><a href="">Bootstrap Reference</a></li>
+          <li><a href="">W3.CSS Reference</a></li>
+          <li><a href="">UTF-8 Reference</a></li>
+        </ul>
+        <h4>Exercises</h4>
+        <ul>
+          <li><a href="">HTML Exercises</a></li>
+          <li><a href="">CSS Exercises</a></li>
+          <li><a href="">JavaScript Exercises</a></li>
+          <li><a href="">SQL Exercises</a></li>
+          <li><a href="">PHP Exercises</a></li>
+          <li><a href="">Python Exercises</a></li>
+        </ul>
+      </div>
+      <!-- end side menu -->
+      <div class="col-xl-10 hh">
+        <!-- start html row -->
+        <div class="row">
+          <div class="col-xl-6 hh_left">
+            <h2>HTML</h2>
+            <br>
+            <p>The language for building web pages</p>
+            <br>
+            <button>LEARN HTML</button>
+            <button>HTML REFERENCES</button>
+            <br><br><br>
+          </div>
+          <div class="col-xl-6">
+            <div class="hh_code">
+              <h3>HTML Example:</h3>
+              <div class="code">
+                <span>
+                  <span class="br" style="margin-left: .5em;"><</span>!DOCTYPE
+                  <span style="color: red;"> html</span><span class="br">></span><br>
+                  <span class="br" style="margin-left: .5em;"><</span><span>html</span>
+                  <span class="br">></span><br>
+                  <span class="br" style="margin-left: .5em;"><</span><span>title<span class="br">>
+                </span><span class="tt">HTML Tutorials</span></span>
+                  <span class="br"><</span><span>/title<span class="br">></span></span><br>
+                  <span class="br" style="margin-left: .5em;"><</span><span>body<span class="br">></span></span><br><br>
+                  <span class="br" style="margin-left: .5em;"><</span>h1<span class="br">></span>
+                  <span class="tt">This is a heading.</span>
+                  <span class="br"><</span>/h1<span class="br">></span><br>
+                  <span class="br" style="margin-left: .5em;"><</span>p<span class="br">></span>
+                  <span class="tt">This is a paragraph.</span>
+                  <span class="br"><</span>/p<span class="br">></span><br><br>
+                  <span class="br" style="margin-left: .5em;"><</span><span>/body<span class="br">></span></span><br>
+                  <span class="br" style="margin-left: .5em;"><</span><span>/html<span class="br">></span></span><br>
+                </span>
+              </div>
+              <button>Try it Yourself >></button>
+            </div>
+          </div>
+        </div>
+        <!-- end html row -->
+        <!-- start css row -->
+        <div class="row">
+          <div class="col-xl-6 hh_left">
+            <h2>HTML</h2>
+            <br>
+            <p>The language for building web pages</p>
+            <br>
+            <button>LEARN HTML</button>
+            <button>HTML REFERENCES</button>
+            <br><br><br>
+          </div>
+          <div class="col-xl-6">
+            <div class="hh_code">
+              <h3>HTML Example:</h3>
+              <div class="code">
+                <span>
+                  <span class="br" style="margin-left: .5em;"><</span>!DOCTYPE
+                  <span style="color: red;"> html</span><span class="br">></span><br>
+                  <span class="br" style="margin-left: .5em;"><</span><span>html</span>
+                  <span class="br">></span><br>
+                  <span class="br" style="margin-left: .5em;"><</span><span>title<span class="br">>
+                </span><span class="tt">HTML Tutorials</span></span>
+                  <span class="br"><</span><span>/title<span class="br">></span></span><br>
+                  <span class="br" style="margin-left: .5em;"><</span><span>body<span class="br">></span></span><br><br>
+                  <span class="br" style="margin-left: .5em;"><</span>h1<span class="br">></span>
+                  <span class="tt">This is a heading.</span>
+                  <span class="br"><</span>/h1<span class="br">></span><br>
+                  <span class="br" style="margin-left: .5em;"><</span>p<span class="br">></span>
+                  <span class="tt">This is a paragraph.</span>
+                  <span class="br"><</span>/p<span class="br">></span><br><br>
+                  <span class="br" style="margin-left: .5em;"><</span><span>/body<span class="br">></span></span><br>
+                  <span class="br" style="margin-left: .5em;"><</span><span>/html<span class="br">></span></span><br>
+                </span>
+              </div>
+              <button>Try it Yourself >></button>
+            </div>
+          </div>
+        </div>
+        <!-- end css row -->
+      </div>
+    </div>
+    <!-- end container -->
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/popper.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/home.js' %}"></script>
+  </body>
+</html>

@@ -1,0 +1,197 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/*body {*/
+  /*background-color: #F0F0F0;*/
+/*}*/
+.clearfix {
+	clear: both;
+}
+/* start head*/
+.header {
+  width: 100%;
+  height: 74.5px;
+  margin: 0px;
+}
+.home {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+}
+.home li {
+  height: 74.4px;
+}
+.home li a {
+  padding: 10px;
+	font-size: 50px;
+  text-decoration: none;
+}
+.home .ww {
+  color: #565656;
+}
+.home .com{
+  color: #00BD4B;
+  margin-left: 0;
+}
+.home p {
+  text-align: right;
+	color: black;
+	font-size: 20px;
+	padding-top: 25px;
+  padding-right: 1.5em;
+}
+/*end head*/
+
+/*start nav*/
+.nav {
+  width: 100%;
+  height: 3.2em;
+  margin: 0px;
+  background-color: #00BD4B;
+  height: 4em;
+}
+.nav ul {
+  list-style: none;
+  padding-top: 1em;
+  margin: 0;
+  padding: 0;
+  height: 4em;
+}
+.nav ul li{
+  float: left;
+  margin-right: 1.5em;
+  height: 4em;
+  padding-top: .7em;
+  color: white;
+  font-size: 1.4em;
+  cursor: pointer;
+  height: 100%;
+}
+
+.nav ul li:hover {
+  background-color: white;
+  color: black;
+}
+.tut {
+  background-color: #F0F0F0;
+  height: 33em;
+}
+.tut .menu {
+  width: 23%;
+  float: left;
+}
+.tut .menu ul {
+  list-style: none;
+ }
+.menu ul li:hover {
+  background-color: #CBCBCB;
+}
+.menu h3{
+  margin-left: 1.5em;
+}
+.menu a {
+  text-decoration: none;
+  font-size: 1.3em;
+  color: black;
+}
+.tut1 {
+  display: none;
+}
+/* end menu for tutorials */
+
+/* start menu for references */
+.ref {
+  height: 34em;
+  display: none;
+}
+/* end menu for references */
+/* start menu for examples */
+.ex {
+  height: 29em;
+  display: none;
+}
+/* end menu for examples */
+/* start side menu */
+.mn_side {
+  border-right: 4px solid #F0F0F0;
+}
+.mn_side ul {
+  list-style: none;
+}
+.mn_side ul li a {
+  font-size: 1.2em;
+  color: black;
+  text-decoration: none;
+}
+.mn_side ul li:hover {
+  background-color: #CBCBCB;
+  cursor: pointer;
+}
+.con .mn_side h4{
+  padding-left: 1.6em;
+}
+/* end side menu */
+
+/* start html row */
+.hh .row .hh_left {
+  text-align: center;
+}
+.hh .row h2 {
+  margin-top: 10%;
+  font-size: 4.5em;
+  color: #565656;
+}
+.hh .row p {
+  font-size: 1.5em;
+  color: #3C3C3C;
+}
+.hh .row .hh_left button{
+  font-size: 1.2em;
+  margin-left: 1em;
+  padding: .5em;
+  background-color: #565656;
+  color: white;
+  cursor: pointer;
+}
+.hh .row .hh_left button:hover{
+  background-color: #CBCBCB;
+  color: black;
+}
+.hh_code {
+  margin: 5%;
+  background-color: #F0F0F0;
+  border-radius: .7em;
+  box-shadow: #5b80b2;
+}
+.hh_code h3{
+  text-align: left;
+  padding: .5em;
+  padding-top: .6em;
+}
+.code{
+  border-left: 4px solid #00BD4B;
+  background-color: white;
+  text-align: left;
+  font-size: 1.1em;
+  color: #AC0028;
+  margin-right: 1.2em;
+}
+.hh_code button {
+  background-color: #00BD4B;
+  color: white;
+  margin: 1em;
+  font-size: 1.3em;
+  padding: .5em;
+}
+.br {
+  color: blue;
+}
+.tt {
+  color: black;
+}
+/* end html row */
