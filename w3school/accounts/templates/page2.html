@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %} W3schools Website {% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/normalize.css'%}"/>
+    <link rel="stylesheet" href="{% static 'css/stylee.css' %}">
+  </head>
+  <body>
+    <!-- start container -->
+    <div class="row">
+      <!-- start side menu -->
+      <div class="xs1">
+        <div style="background-color: #EDEDED;">
+          <h5>About</h5>
+          <h5>Service</h5>
+          <h5>Clients</h5>
+          <h5>Contact</h5>
+        </div>
+      </div>
+      <!-- end side menu -->
+      <div class="xx1">
+        <h1>Auto Sidebar</h1>
+        <p>This sidebar is as tall as its content (the links), and is always shown.</p>
+        <p>Scroll this window to see the "fixed" effect.</p>
+        <p>
+          Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo,
+          maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te,
+          id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad.
+          Eum no molestiae voluptatibus.
+        </p>
+        <p>
+          Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo,
+          maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te,
+          id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad.
+          Eum no molestiae voluptatibus.
+        </p>
+        <br><br><br><br><br><br>
+      </div>
+    </div>
+    <!-- end container -->
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/popper.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/home.js' %}"></script>
+  </body>
+</html>

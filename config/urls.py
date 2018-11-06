@@ -15,9 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from w3school.accounts.views import home
+from w3school.accounts.views import home, page1, page2
 urlpatterns = [
   path('admin/', admin.site.urls),
   path('accounts/', include('w3school.accounts.urls')),
   path('', home, name="home"),
+  path('page1/', page1, name="page1"),
+  path('page2/', page2, name="page2"),
 ]
